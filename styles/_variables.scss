@@ -1,0 +1,24 @@
+$width:5em;
+
+
+$colors: (
+    green:rgb(60, 255, 0),
+    white:rgb(255, 255, 255),
+    yellow:rgb(255, 227, 99),
+    gray:rgb(247, 247, 247),
+    darkGray:rgb(82, 81, 81)
+);
+
+
+@mixin position {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@function color($key) {
+    @if map-has-key($colors, $key) {
+        @return map-get($colors, $key);
+    }
+}

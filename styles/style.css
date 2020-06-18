@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  color: white;
+  height: 300px;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__logo {
+  font-size: 25px;
+  color: #ffe363;
+}
+.menu__logo:hover {
+  color: white;
+}
+
+.nav {
+  display: flex;
+}
+.nav__item {
+  padding: 0 15px;
+}
+.nav__item:hover {
+  color: #ffe363;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+.title__h1 {
+  margin: 20px 0;
+}
+.title__h5 {
+  margin: 10px 0;
+  color: #525151;
+}
+.title__h5--italic {
+  font-style: italic;
+}
+.title__h2 {
+  font-size: 30px;
+}
+
+.button {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #ffe363;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+.button:hover {
+  border: 2px solid #ffe363;
+  color: #ffe363;
+  background-color: white;
+}
+
+.article:nth-child(even) {
+  background-color: #f7f7f7;
+}
+.article:nth-child(odd) {
+  background-color: white;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px 0;
+}
+.block--column {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 360px;
+  padding: 30px;
+}
+.section--flex {
+  display: flex;
+  flex-direction: row-reverse;
+  min-width: 1000px;
+}
+.section__h3 {
+  margin: 20px 0 10px;
+}
+.section__text {
+  color: #525151;
+}
+.section__text--italic {
+  font-style: italic;
+}
+.section__image {
+  margin: 0 auto;
+  background-size: cover;
+}
+.section__image--circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #ffe363;
+}
+.section__image--square {
+  width: 300px;
+  height: 200px;
+}
+.section__image--design {
+  background-image: url(../img/service3/kisspng-laptop-computer-icons-computer-monitors-desktop-co-laptop-png-vector-5ab116383990f6.3151876315215550002358.png);
+}
+.section__image--commerce {
+  background-image: url(../img/service3/kisspng-ipad-3-download-vector-tablet-pc-5a7be1e4a6e4b0.4181506615180681966836.png);
+}
+.section__image--security {
+  background-image: url(../img/service3/kisspng-black-white-computer-icons-user-download-security-icon-png-5ab075882a7a10.103193411521513864174.png);
+}
+.section__image--threads {
+  background-image: url(../img/portfolio/01-full.jpg);
+}
+.section__image--explore {
+  background-image: url(../img/portfolio/02-full.jpg);
+}
+.section__image--finish {
+  background-image: url(../img/portfolio/03-full.jpg);
+}
+.section__image--lines {
+  background-image: url(../img/portfolio/04-full.jpg);
+}
+.section__image--southwest {
+  background-image: url(../img/portfolio/05-full.jpg);
+}
+.section__image--window {
+  background-image: url(../img/portfolio/06-full.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
